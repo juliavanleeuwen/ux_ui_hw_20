@@ -1,0 +1,171 @@
+.navigation {
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    margin: 5px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.topNav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #333333; 
+  
+    
+}
+
+.topNav, li {
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 1%;
+    
+}
+
+.topNav li:hover {
+    color: #FEBE10;
+    text-decoration-line: underline;
+    cursor: pointer;
+
+}
+
+.logo {
+    display: inline-block;
+    width: 100%;
+    padding: 1%;
+    align-items: flex-start;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #febe10;
+}
+
+h3, h4, h5 {
+    font-family: 'Avenir', sans-serif;
+}
+
+p {
+    font-family: 'Avenir', sans-serif;
+}
+
+.heroContent {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.lead {
+    margin-top: 25px;
+}
+
+.overview {
+    margin-top: 150px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #febe10;
+
+}
+
+.card {
+    border-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.research {
+    margin-top: 150px;
+}
+
+.personas {
+    margin-top: 150px;  
+}
+
+.sitemap {
+    margin-top: 150px;
+}
+
+.design {
+    margin-top: 150px;
+}
+
+.testing {
+    margin-top: 150px;
+}
+
+.testCopy {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.uiDesign {
+    margin-top: 150px; 
+}
+
+.mainH1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.conclusion {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.finalThoughts {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*footer CSS*/
+
+footer {
+    display: flex;
+    background-color: #FEBE10;
+    color: WHITE;
+    font-weight: 900;
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.footerNav, li {
+    text-align: center;
+}
+
+.footerNav li:hover {
+    color: #333333; 
+}
+
+.footerSocial {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+.copyright {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
