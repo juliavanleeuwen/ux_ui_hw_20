@@ -68,6 +68,7 @@ p {
 
 .overview {
     margin-top: 150px;
+    padding: 50px;
 }
 
 p {
@@ -105,12 +106,18 @@ p {
 
 .testing {
     margin-top: 150px;
+   
 }
 
 .testCopy {
     align-items: center;
     justify-content: center;
+    
 
+}
+
+.testCopy, li {
+    list-style-type: none;
 }
 
 .uiDesign {
